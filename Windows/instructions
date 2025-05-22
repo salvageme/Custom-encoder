@@ -1,0 +1,40 @@
+# Welcome to Custom encoder
+
+First of all, thank you for downloading this software.
+
+
+# Some key point for using this encoder:-
+
+1. This program uses a 64 character key. This key is used to do both encoding as well as decoding. DO NOT LOSE THIS KEY!!!
+
+2. By default the program acts as a Base64 encoder/decoder. The default key given in the folder can be used to encode base64 anytime.
+
+3. You must create a unique key for custom encoding. This key must:
+	+ Be 64 characters long.
+	* All characters must be unique (it is case sensitive).
+
+
+# How to use? :-
+
+1. Run the main.py script.
+2. Choose one of the options to 
+	* Encode
+	* Decode
+	* Enter custom key
+
+
+# IMPORTANT
+
+* If you are using a custom key, you should hide it properly. If anyone else finds this key they can easily use the decoder to read all your sensitive data.
+
+* I recommend that after you are done with using the program, you enter the default key in before leaving. This will make sure that no one can use this
+    program to decode to data without the key.
+    
+* If you want someone else to use this program, maybe your partner or friend or someone, just ask them them to get the program from Github and then hand them
+    a copy of the key. And if are really serious about the privacy, give them the key in person.
+
+* If you suspect that an unauthorized person has somehow acquired the key, change the key immediately and re-encode your data. Make sure you first decode the
+    data, otherwise it will be lost or get corrupted.
+    
+
+Enjoy!!!
